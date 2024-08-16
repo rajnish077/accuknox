@@ -1,0 +1,26 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.dashboard {
+  @apply max-w-7xl mx-auto;
+}
+
+.widget {
+  @apply bg-white shadow-lg p-6 rounded-lg;
+}
+
+.remove-widget-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red; /* Adjust the color as needed */
+  position: absolute; /* Optional if you want it positioned differently */
+  top: 10px; /* Adjust the position as needed */
+  right: 10px;
+}
